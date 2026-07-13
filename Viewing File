@@ -7,12 +7,12 @@
 `less` : View a file one page at a time.
 
 - `less file.txt` : Open a file in read-only mode.
-- Press `Space` to move down a page.
-- Press `b` to move back a page.
-- Press `q` to quit.
+- `Space` : Move down one page.
+- `b` : Move back one page.
+- `q` : Quit the viewer.
 
-`grep` : Search for specific text within a file.
+`grep` : Search for specific text inside a file.
 
-- `grep "hello" file.txt` : Search for the word "hello" in a file.
-- `grep -i "hello" file.txt` : Ignore uppercase and lowercase letters.
-- `grep -r "hello" folder/` : Search through all files in a directory.
+- `grep "text" file.txt` : Search for a word or phrase in a file.
+- `grep -i "text" file.txt` : Ignore uppercase and lowercase letters.
+- `grep -r "text" folder/` : Search through all files in a directory and its subdirectories.

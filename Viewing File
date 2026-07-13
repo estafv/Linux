@@ -1,0 +1,18 @@
+# Viewing Files
+
+`cat` : Display the contents of a file.
+
+- `cat file.txt` : Display the contents of a file.
+
+`less` : View a file one page at a time.
+
+- `less file.txt` : Open a file in read-only mode.
+- Press `Space` to move down a page.
+- Press `b` to move back a page.
+- Press `q` to quit.
+
+`grep` : Search for specific text within a file.
+
+- `grep "hello" file.txt` : Search for the word "hello" in a file.
+- `grep -i "hello" file.txt` : Ignore uppercase and lowercase letters.
+- `grep -r "hello" folder/` : Search through all files in a directory.

@@ -13,5 +13,3 @@
 `file` : Display the type of a file.
 
 `find` : Search for files and directories.
-
-- `find . -name "file.txt"` : Search for a file in the current directory and its subdirectories.
